@@ -1,6 +1,8 @@
 # MDProgress
 类似md风格的圆形进度条：
 
+***特性：可以调节进度条的粗细，转速等。（很多库都不支持调节粗细）**
+
 
 ![](http://opbgt9bbj.bkt.clouddn.com/sadf.gif)
 
