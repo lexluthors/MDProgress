@@ -19,7 +19,7 @@ Material Design风格的圆形进度条：
 
 使用方法：
 
-    compile 'com.jaywei:mdprogress:1.0.0'
+    compile 'com.jaywei:mdprogress:1.0.2'
 
 
 属性：
