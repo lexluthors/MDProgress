@@ -5,7 +5,7 @@ publish {
     userOrg = 'lexluthors'
     groupId = 'com.jaywei'
     artifactId = 'mdprogress'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.2'
     desc = 'mdprogress'
     website = 'https://github.com/lexluthors/MDProgress/tree/master'
 }
