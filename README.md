@@ -1,15 +1,31 @@
 # MDProgress
-类似md风格的圆形进度条：
+Material Design风格的圆形进度条：
 
-***特性：可以调节进度条的粗细，转速等。（很多库都不支持调节粗细）**
+***特性：**
+#可以调节进度条的粗细
+#可以调节进度条的转速
+#可以设置是否带有圆角（线冒）
+#可以调节进度条的最大和最小角度范围
+#支持颜色队列
 
 
-![](http://opbgt9bbj.bkt.clouddn.com/sadf.gif)
+![](https://github.com/lexluthors/MDProgress/blob/master/app/asdf2.gif)
 
 
 使用方法：
 
     compile 'com.jaywei:mdprogress:1.0.0'
+
+
+属性：
+
+    cpb_max_sweep_angle：最大角度属性,默认310
+    cpb_min_sweep_angle：最小角度属性，默认最小20
+    cpb_cap_round：是否显示线冒（圆角），默认直角false
+    cpb_stroke_width：进度条粗细
+    cpb_rotation_speed：进度条的整体转速，默认1
+    cpb_sweep_speed：进度条颜色部分动画收缩速度，默认1
+
 
 布局代码：
 
@@ -23,4 +39,5 @@
             app:cpb_min_sweep_angle="10"
             app:cpb_rotation_speed="1.0"
             app:cpb_stroke_width="1.7dp"
+            app:cpb_cap_round="true"
             app:cpb_sweep_speed="1.0"/>
