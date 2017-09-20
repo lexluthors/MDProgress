@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <array name="color_sequence">
+        <item>#00ff00</item>
+        <item>#ff0084</item>
+        <item>#0000ff</item>
+    </array>
 </resources>

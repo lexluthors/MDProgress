@@ -16,12 +16,6 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import static com.jaywei.mdprogress.CircularProgressBarUtils.checkAngle;
-import static com.jaywei.mdprogress.CircularProgressBarUtils.checkColors;
-import static com.jaywei.mdprogress.CircularProgressBarUtils.checkNotNull;
-import static com.jaywei.mdprogress.CircularProgressBarUtils.checkPositiveOrZero;
-import static com.jaywei.mdprogress.CircularProgressBarUtils.checkSpeed;
-
 public class CircularProgressDrawable extends Drawable
     implements Animatable {
 
@@ -403,7 +397,7 @@ public class CircularProgressDrawable extends Drawable
       mColors = new int[]{context.getResources().getColor(R.color.cpb_default_color)};
       mMinSweepAngle = context.getResources().getInteger(R.integer.cpb_default_min_sweep_angle);
       mMaxSweepAngle = context.getResources().getInteger(R.integer.cpb_default_max_sweep_angle);
-      mStyle = Style.ROUNDED;
+      mStyle = Style.NORMAL;
     }
 
     public Builder color(int color) {
@@ -476,5 +470,35 @@ public class CircularProgressDrawable extends Drawable
           mAngleInterpolator,
           mSweepInterpolator);
     }
+  }
+
+  static void checkSpeed(float speed) {
+    if (speed <= 0f)
+      throw new IllegalArgumentException("Speed must be >= 0");
+  }
+
+  static void checkColors(int[] colors) {
+    if (colors == null || colors.length == 0)
+      throw new IllegalArgumentException("You must provide at least 1 color");
+  }
+
+  static void checkAngle(int angle) {
+    if (angle < 0 || angle > 360)
+      throw new IllegalArgumentException(String.format("Illegal angle %d: must be >=0 and <= 360", angle));
+  }
+
+  static void checkPositiveOrZero(float number, String name) {
+    if (number < 0)
+      throw new IllegalArgumentException(String.format("%s %d must be positive", name, number));
+  }
+
+  static void checkPositive(int number, String name){
+    if(number <= 0)
+      throw new IllegalArgumentException(String.format("%s must not be null", name));
+  }
+
+  static void checkNotNull(Object o, String name) {
+    if (o == null)
+      throw new IllegalArgumentException(String.format("%s must be not null", name));
   }
 }
