@@ -14,7 +14,7 @@ Material Design风格的圆形进度条：
 #支持颜色队列
 
 
-![](https://github.com/lexluthors/MDProgress/blob/master/app/asdf2.gif)
+![](https://gitee.com/lexluthor/ResImageGitee/blob/master/app/image/2020-06-27-13-59-43.gif)
 
 
 使用方法：
