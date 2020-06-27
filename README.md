@@ -15,7 +15,7 @@ Material Design风格的圆形进度条：
 
 
 ![](https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1995875337,1872320794&fm=26&gp=0.jpg)
-
+![Crop](https://gitee.com/lexluthor/ResImageGitee/blob/master/app/image/2020-06-27-13-59-43.gif?raw=true)
 
 使用方法：
 
