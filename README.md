@@ -14,6 +14,10 @@ Material Design风格的圆形进度条：
 #支持颜色队列
 
 
+## 演示
+1 
+   <img widt="375" src="https://github.com/lexluthors/MDProgress/blob/master/image/2020-06-27-13-59-43.gif">
+   
 ![image](https://github.com/lexluthors/MDProgress/blob/master/image/2020-06-27-13-59-43.gif)
 
 使用方法：
