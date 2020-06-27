@@ -14,7 +14,7 @@ Material Design风格的圆形进度条：
 #支持颜色队列
 
 
-![image](https://github.com/FengziXiao/JxyDatePicker/blob/master/1340843-a76f1e1788c0684f.gif)
+![image](https://github.com/lexluthors/MDProgress/blob/master/image/2020-06-27-13-59-43.gif)
 
 使用方法：
 
